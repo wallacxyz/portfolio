@@ -382,6 +382,7 @@ footer a:hover{
         overflow-x: auto;
         justify-content: flex-start;
         white-space: nowrap;
+        box-sizing: border-box;
     }
 
     nav a {
@@ -389,7 +390,6 @@ footer a:hover{
         padding: 6px 8px;
         flex-shrink: 0;
     }
-
     .inicio {
         height: 90vh;
         font-size: 28px;
