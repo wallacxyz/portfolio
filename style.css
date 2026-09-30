@@ -365,3 +365,93 @@ footer a:hover{
     color: #3B82F6;
     text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+
+    body {
+        padding-top: 70px;
+        overflow-x: hidden;
+    }
+
+    nav {
+        left: 10px;
+        right: 10px;
+        top: 10px;
+        gap: 5px;
+        padding: 8px;
+        overflow-x: auto;
+        justify-content: flex-start;
+        white-space: nowrap;
+    }
+
+    nav a {
+        font-size: 12px;
+        padding: 6px 8px;
+        flex-shrink: 0;
+    }
+
+    .inicio {
+        height: 90vh;
+        font-size: 28px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    #sobre,
+    #formacao,
+    #habilidades,
+    #projetos,
+    #cursos,
+    #experiencia,
+    #idiomas,
+    #contato {
+        min-height: auto;
+        padding: 60px 20px;
+        flex-direction: column;
+        gap: 30px;
+        box-sizing: border-box;
+    }
+
+    .sobre_imagem,
+    .hab_imagem,
+    .projetos_imagem,
+    .cursos_imagem,
+    .formacao_imagem,
+    .experiencia_imagem,
+    .idiomas_imagem {
+        width: 100%;
+        max-width: 600px;
+        height: 300px;
+    }
+
+    .sobre_texto,
+    .formacao_texto,
+    .texto_hab,
+    .projetos_texto,
+    .cursos_texto,
+    .experiencia_texto,
+    .idiomas_texto {
+        width: 100%;
+        max-width: 800px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    h5 {
+        font-size: 14px;
+    }
+
+    .contato_texto {
+        width: 100%;
+    }
+}
